@@ -1,0 +1,24 @@
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 600px;
+    height: 337.5px;
+    margin: 15px;
+    transition: all 1s;
+}
+
+img:hover {
+    scale: 1.1;
+}
+
+a {
+    color: red;
+    /* border: 3px solid red; */
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+}

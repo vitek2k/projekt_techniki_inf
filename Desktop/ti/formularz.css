@@ -1,0 +1,36 @@
+body {
+    background-image: url(roma-kaiuk-9vlGWE6A7Ws-unsplash.jpg);
+    background-size: cover;
+    /* opacity: 0.5; */
+    font-family: "Courier New", monospace;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10%;
+}
+
+h2, a {
+    color: red;
+    /* border: 3px solid red; */
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+}
+
+input, select, textarea {
+    padding: 0.4rem;
+    background: white;
+    font-weight: bold;
+}
+
+textarea {
+    height: 6rem;
+}
+
+button {
+    width: 6rem;
+    padding: 1rem;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="formularz.css" />
+</head> 
+<body>
+    <h2><a href="index.php">return &#8592</a></h2>
+    <form>
+        Imię: <input type="text" name="firstname"><br><br>
+        Nazwisko: <input type="text" name="lastname"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Hasło: <input type="password" name="password" required><br><br>
+        Data urodzenia: <input type="date" name="birthday"><br><br>
+        Nr indeksu: <input type="number" name="index"><br><br>
+        Uczelnia:<br>
+        <input type="radio" name="Uczelnia">AGH<br>
+        <input type="radio" name="Uczelnia">PK<br>
+        <input type="radio" name="Uczelnia">UJ<br><br>
+        Stopień:<br>
+        <select>
+            <option value="Inżynierskie" name="Inżynierskie">Inżynierskie</option>
+            <option value="Magisterskie" name="Magisterskie">Magisterskie</option>
+            <option value="Doktorskie" name="Doktorskie">Doktorskie</option>
+        </select><br><br>
+        <input type="submit" value="Zapisz">
+        <input type="reset" value="Resetuj"> 
+    </form>
+</body> 
+</html> 

@@ -1,0 +1,96 @@
+/*Selector {
+    Property: value;
+}*/
+body {
+    background-image: url(roma-kaiuk-9vlGWE6A7Ws-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    font-family: "Courier New", monospace;
+    /* font-family: "IBMPlexMono", sans-serif, apple-system; */
+    font-weight: bold;
+    text-align: center;
+    margin: auto 0;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background: #c9c9c9;
+    color: black;
+    font-size: 18px;
+    opacity: 0.5;
+  }
+
+.zone {
+    border-radius: 4px;
+    transition: all 0.3s linear;
+    border: 1px solid #bbb;
+}
+
+.main-nav {
+    color: black;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.bar{
+    color: red;
+    text-align: center;
+    border: 6px double white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.right {
+    margin-left: auto;
+}
+
+.center {
+    font-size: larger;
+    margin-left: auto;
+}
+
+@media only screen and (max-width:600px) {
+    .main-nav {
+        font-size: 0.7em;
+        padding: 0;
+    }
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+    text-decoration: u;
+    font-weight: normal;
+}
+
+footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    background: #c9c9c9;
+    color: black;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+ul {
+    list-style-type: square;
+    display: inline-block;
+}
+
+li {
+    padding: 20px;
+}

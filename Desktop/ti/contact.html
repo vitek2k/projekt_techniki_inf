@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="formularz.css" />
+</head> 
+<body>
+    <h2><a href="index.php">return &#8592</a></h2>
+    <div class="container">
+        <h1>Skontaktuj się!</h1>
+        <form action="https://formsubmit.co/el/sewoko" method="POST">
+            <input type="text" name="name" placeholder="Imię i Nazwisko" required><br><br>
+            <input type="email" name="email" placeholder="Email" required><br><br>
+            <select name="Temat">
+                <option>Problem ze stroną</option>
+                <option>Twój wkład</option>
+                <option>Pytanie odnośnie studiów</option>
+                <option>Inne</option>
+            </select><br><br>
+            <textarea name="message" placeholder="Treść wiadomości" required></textarea><br><br>
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
+</body> 
+</html> 
